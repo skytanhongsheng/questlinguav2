@@ -1,0 +1,16 @@
+<%# first header with link on top right %>
+<div class="d-flex justify-content-between text-left px-5">
+  <h1>My Curricula</h1>
+  <%= link_to 'Add new curriculum', new_curriculum_path, class: 'add-curriculum-btn mt-auto align-self-end' %>
+</div>
+
+<%# Container -> Loop each curriculum created by the form in new.html.erb %>
+<div class="container">
+  <% @curriculums.each do |curriculum| %>
+    <%# bg-white = background white, justify-content-between %>
+    <div class="bg-white shadow rounded p-3 m-3">
+    <h2><%= curriculum.title %></h2>
+    <%= link_to 'View curriculum', curriculum_path(curriculum), class: 'view-curriculum-btn mt-auto' %>
+    </div>
+  <% end %>
+</div>

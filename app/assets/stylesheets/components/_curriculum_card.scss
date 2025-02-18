@@ -1,0 +1,31 @@
+.curriculum-info {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.view-curriculum-btn {
+  background: darkblue;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 2.5rem;
+
+  &:hover {
+    background: #40848e;
+  }
+}
+
+.add-curriculum-btn {
+  background: orange;
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 2.5rem;
+
+  &:hover {
+    background: #d1a684;
+  }
+}
