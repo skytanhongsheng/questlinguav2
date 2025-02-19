@@ -1,0 +1,39 @@
+[
+  {
+    "instruction": "Type what you hear below:",
+    "template": "Listening Comprehension",
+    "context": {
+      "type": "audio/mpeg",
+      "source": "audio url"
+    },
+    "answer": "今天天气真好"
+  },
+  {
+    "instruction": "Which option is the correct translation?",
+    "template": "MCQ",
+    "context": "图书馆",
+    "options": [
+      "shopping mall",
+      "hospital",
+      "post office",
+      "library"
+    ],
+    "answer": "library"
+  },
+  {
+    "instruction": "Describe the image below:",
+    "template": "Picture Comprehension",
+    "context": {
+      "type": "image/png",
+      "source": "image url"
+    },
+    "answer": "这是一个海滩"
+  },
+
+  {
+    "instruction": "Translate the sentence below:",
+    "template": "Translate",
+    "context": "她正在学习。",
+    "answer": "She is studying"
+  }
+]
